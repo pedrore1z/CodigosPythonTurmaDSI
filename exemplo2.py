@@ -1,5 +1,6 @@
 # operadores + - * / %
 # operador de exponenciação **
+# operador de divisão inteiro //
 '''
 Será comentário de várias linhas
 
@@ -14,3 +15,8 @@ nota1 = float(input("Informe a nota 1: "))
 nota2 = float(input("Informe a nota 2: "))
 media = (nota1 + nota2)/2
 print("A media entre as notas {} e {} é {}".format(nota1, nota2, media))
+
+
+# EXEMPLO DO OPERADOR //
+print("Divisão normal: ",10/6)
+print("Divisão retornando o número inteiro: ",10//6)

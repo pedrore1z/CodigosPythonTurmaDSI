@@ -1,3 +1,4 @@
+print("*"*10,"Atividade 01","*"*10)
 medida = float(input("Informe a base do seu terreno: "))
 medida2 = float(input("Informe a altura do seu terreno: "))
 
@@ -7,4 +8,4 @@ print("Sua area é: ", area)
 
 metros = 850
 
-print("Você deverá pagar o valor de :", area * metros)
+print("Você deverá pagar o valor de R$:", area * metros)

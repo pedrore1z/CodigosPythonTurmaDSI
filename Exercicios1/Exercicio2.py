@@ -1,5 +1,5 @@
-sal = int(input("Informe seu salário total: "))
-horasTrabalhadas = int(input("Informe sua carga horária sendo ela diariamente: "))
+sal = float(input("Informe seu salário total: "))
+horasTrabalhadas = float(input("Informe sua carga horária sendo ela diariamente: "))
 
 
-print("Você recebe", sal / horasTrabalhadas," por hora ")
+print("Você recebe {:.2f} por hora ".format(sal / horasTrabalhadas))
