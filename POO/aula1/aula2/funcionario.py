@@ -7,3 +7,5 @@ class Funcionario:
     def relatorio(self):
         print(f"Nome: {self.nome}, Cargo: {self.cargo}, Salário: {self.salario}")
 
+fulano = Funcionario("Vitoria","Engenheira",3000)
+fulano.relatorio()
